@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;400;700&family=VT323&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js"defer ></script>
+  <title>Pixel Art</title>
+</head>
+<body>
+  <h1 id="title">Pixel Art</h1>
+  <div class="context"> 
+    <div id="color-palette">
+      <h2>Paleta de Cores</h2>
+      <div class="colors">
+        <div class="color selected"></div>
+        <div class="color"></div>
+        <div class="color"></div>
+        <div class="color"></div>
+      </div>
+    </div>
+    <div class="space"></div>
+    <label for="row-button">Linhas e colunas: 
+      <div class="bord-create">
+        <input type="number" min="1" max="50" value="5" id="board-size">
+        <button id="generate-board" >Nova Tabela</button>
+      </div>
+    </label>
+  </div>
+  <div id="button-nav"> 
+    <button id="clear-board">Limpar</button>
+  </div>
+  <div id="pixel-board"></div>
+  
+  
+</body>
+</html>
