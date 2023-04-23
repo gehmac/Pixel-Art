@@ -58,6 +58,7 @@ function buttonClear() {
   });
 }
 
+
 function crateSquare() {
   for (let index = 0; index < baseSquare; index += 1) {
     const creatColunm = document.createElement('div');
