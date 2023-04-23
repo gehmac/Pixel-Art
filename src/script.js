@@ -56,6 +56,7 @@ function buttonClear() {
       squareCurrent.style.backgroundColor = null;
     });
   });
+  
 }
 
 
